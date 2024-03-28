@@ -17,7 +17,7 @@ namespace binance
                 var _tickers = await _public_api.FetchTickersAsync();
                 if (_tickers.success)
                 {
-                    var _btcusd_tickers = _tickers.result.Where(t => t.symbol.ToUpper().Contains("BTCUSD"));
+                    var _btcusd_tickers = _tickers.result.Where(t => t.symbol.ToUpper().Contains("ETHUSD"));
 
                     foreach (var _t in _btcusd_tickers)
                         Console.Out.WriteLine($"symbol: {_t.symbol}, closePrice: {_t.closePrice}");

@@ -3,40 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE36102D-AC13-4DED-802B-F265CB1DEE53}"
-	ProjectSection(SolutionItems) = preProject
-		appveyor.yml = appveyor.yml
-		CHANGELOG.md = CHANGELOG.md
-		CONTRIBUTING.md = CONTRIBUTING.md
-		Directory.Build.props = Directory.Build.props
-		global.json = global.json
-		LICENSE.txt = LICENSE.txt
-		README.md = README.md
-		SECURITY.md = SECURITY.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "logo-files", "logo-files", "{5A50B081-F4DF-42AD-9C52-3FDADE6D2919}"
-	ProjectSection(SolutionItems) = preProject
-		logo-files\ccxt.net.api.png = logo-files\ccxt.net.api.png
-		logo-files\ccxt.net.ico = logo-files\ccxt.net.ico
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{F5F13CB7-91AE-498C-AD71-9EC31AA49A5B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E137A9C-8E9F-4484-B4A2-D190573B082C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ccxt.net", "src\ccxt.net.csproj", "{1AF35DB8-580D-4D5B-A50F-B2C63CF5856D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ccxt.test", "tests\ccxt.test\ccxt.test.csproj", "{E972A495-D622-4D66-9564-E8EB170E740A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "binance", "samples\binance\binance.csproj", "{07C1BDD2-6A52-4E6F-845B-ADAE37016395}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BC661016-696B-4C21-BC35-CB49FBED7AA1}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E2E85496-48BA-4D95-A291-C68CA733D20F}"
-	ProjectSection(SolutionItems) = preProject
-		.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,18 +33,6 @@ Global
 		{1AF35DB8-580D-4D5B-A50F-B2C63CF5856D}.Release|x64.Build.0 = Release|Any CPU
 		{1AF35DB8-580D-4D5B-A50F-B2C63CF5856D}.Release|x86.ActiveCfg = Release|Any CPU
 		{1AF35DB8-580D-4D5B-A50F-B2C63CF5856D}.Release|x86.Build.0 = Release|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Debug|x64.Build.0 = Debug|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Debug|x86.Build.0 = Debug|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Release|x64.ActiveCfg = Release|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Release|x64.Build.0 = Release|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Release|x86.ActiveCfg = Release|Any CPU
-		{E972A495-D622-4D66-9564-E8EB170E740A}.Release|x86.Build.0 = Release|Any CPU
 		{07C1BDD2-6A52-4E6F-845B-ADAE37016395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07C1BDD2-6A52-4E6F-845B-ADAE37016395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07C1BDD2-6A52-4E6F-845B-ADAE37016395}.Debug|x64.ActiveCfg = Debug|x64
@@ -90,9 +51,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1AF35DB8-580D-4D5B-A50F-B2C63CF5856D} = {9E137A9C-8E9F-4484-B4A2-D190573B082C}
-		{E972A495-D622-4D66-9564-E8EB170E740A} = {BC661016-696B-4C21-BC35-CB49FBED7AA1}
 		{07C1BDD2-6A52-4E6F-845B-ADAE37016395} = {F5F13CB7-91AE-498C-AD71-9EC31AA49A5B}
-		{E2E85496-48BA-4D95-A291-C68CA733D20F} = {EE36102D-AC13-4DED-802B-F265CB1DEE53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10D0D5D6-447B-4484-A230-BBDBAA48885C}

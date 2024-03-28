@@ -1,4 +1,4 @@
-# CCXT.NET - CryptoCurrency eXchange Trading Library for .NET
+ CCXT.NET - CryptoCurrency eXchange Trading Library for .NET
 
 [![Build status](https://ci.appveyor.com/api/projects/status/dnp9i3t6sexv9tpa?svg=true)](https://ci.appveyor.com/project/ccxt-net/ccxt-net)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/ccxt.net.svg)](https://www.nuget.org/packages/CCXT.NET)

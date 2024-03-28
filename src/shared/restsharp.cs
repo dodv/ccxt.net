@@ -197,5 +197,6 @@ namespace CCXT.NET.Shared.Serialize
             get;
             set;
         }
+        ContentType ISerializer.ContentType { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
